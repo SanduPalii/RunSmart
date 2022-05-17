@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dorin Palii",
+  "author": "Sandu Palii",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.13",
@@ -19,5 +19,11 @@
     "gulp-uglify-es": "^2.0.0",
     "jquery": "^3.5.1",
     "sass": "^1.50.1"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
   }
 }
+
+/* Terminal commands
+   npm install gulp-cli */
