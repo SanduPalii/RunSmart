@@ -5,7 +5,104 @@
 @import 'global';
 @import 'header';
 @import 'buttons';
+@import 'consultation';
+@import 'titles';
 
 *{
     font-family: museoModerno;
+}
+
+.promo{
+	min-height: 650px;
+	padding: 21px 0 93px 0;
+	background: url('../images/bg.jpg') center (center/cover) no-repeat;
+	&__wrapper{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		margin-top: 90px;
+	}
+	&__header{
+		font-weight: 700;
+		font-size: 42px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+
+	}
+	&__subheader{
+		margin-top: 17px;
+		font-weight: 500;
+		font-size: 24px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+	&__icons{
+		margin-top: 60px;
+		width: 424px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__icon{
+		width: 106px;
+		text-align: center;
+		color: #fff;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 14px;
+		img{
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+	}
+	&__link{
+		margin-top: 18px;
+		font-weight: 500;
+		font-size: 16px;
+		color: #FFFFFF;
+		a{
+			color: #FFFFFF;
+			text-decoration: underline;
+		}
+	}
+}
+
+.advantages{
+	min-height: 473px;
+	background: #F6F6F6;
+	padding: 73px 0 65px 0;
+	&__title{
+		font-weight: 700;
+		font-size: 30px;
+		text-align: center;
+		color: #0D0D0D;
+	}
+	&__icons{
+		margin-top: 60px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__icon{
+		text-align: center;
+		font-weight: 700;
+		font-size: 18px;
+		display: flex;
+		flex-direction: column;
+		img{
+			margin: 0 auto;
+			margin-bottom: 30px;
+			width: 70px;
+			height: 70px;
+		}
+		span{
+			margin-top: 20px;
+			width: 260px;
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 18px;
+			span{
+				color: #C70101;
+			}
+		}
+	}
 }
