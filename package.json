@@ -24,6 +24,3 @@
     "gulp-cli": "^2.3.0"
   }
 }
-
-/* Terminal commands
-   npm install gulp-cli */
