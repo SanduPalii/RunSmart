@@ -1,0 +1,11 @@
+@media(min-width: 650px){
+    .swiper-pagination{
+        display: none;
+    }
+}
+
+@media(max-width: 650px){
+    .swiper-button-prev:after, .swiper-button-next:after{
+        display: none;
+    }
+}
